@@ -1,0 +1,83 @@
+/* Fonts and General Styling */
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  color: #333; /* Dark Gray */
+}
+
+/* Colors */
+body {
+  background-color: #f7f7f7; /* Light Gray */
+}
+
+.masthead {
+  background: linear-gradient(45deg, #2a5298, #3984b6); /* Gradient Blue */
+  color: #fff; /* White */
+  padding: 30px 0;
+}
+
+.site-heading {
+  text-align: center;
+}
+
+.site-heading h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.site-heading a {
+  color: #fff; /* White */
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.content-wrapper {
+  margin: 30px 0;
+  padding: 0 15px;
+}
+
+.btn-primary {
+  background-color: #3984b6; /* Blue */
+  border-color: #3984b6; /* Blue */
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #185d86; /* Darker Blue */
+  border-color: #185d86; /* Darker Blue */
+}
+
+.card-header {
+  background-color: #3984b6; /* Blue */
+  color: #fff; /* White */
+}
+
+.card-body {
+  background-color: #fff; /* White */
+  border: 1px solid #ddd; /* Light Gray */
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.card-body p {
+  line-height: 1.6;
+}
+
+.text-muted {
+  color: #999; /* Light Gray */
+}
+
+.py-3 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.bg-grey {
+  background-color: #f7f7f7; /* Light Gray */
+}
+
+.text-dark {
+  color: #333; /* Dark Gray */
+}
